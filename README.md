@@ -30,4 +30,4 @@ Located on UIUC's campus in Urbana-Champaign, Illinois.
 Reach out to us at `michael<dot>dietz<at>waya<dot>ai`.
 
 
-<img src="../resources/waya_ai_logo_orange.png" height="224" width="224">
+<img src="./resources/waya_ai_logo_orange.png" height="224" width="224">
