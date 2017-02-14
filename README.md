@@ -12,8 +12,9 @@ Try out our beta instant skin cancer detecting chatbot!
   page_id="1358093637542859"
   color="blue"
   size="xlarge">
-</div>  
+</div>
 
+<br><br>
 
 Our first product to market will center around traumatic brain injury (TBI)/concussion detection via eye tracking. This product will be easy to use, accurate and available on your smartphone. Watch a 30 second video and get an instant diagnosis! Our product will track your recovery after injury so you can get back in the game ASAP!
 
