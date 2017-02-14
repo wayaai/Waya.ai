@@ -36,14 +36,15 @@
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        
-        <img src="../resources/waya_ai_logo_orange.png" height="224" width="224">
       </header>
       <section>
 
       {{ content }}
 
       </section>
+      <footer>
+        <img src="../resources/waya_ai_logo_orange.png" height="224" width="224">
+      </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
