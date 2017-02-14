@@ -17,7 +17,7 @@ Waya.ai is a company whose vision is a world where medical conditions are addres
 <a href="https://www.linkedin.com/in/michael-dietz-40518365">
 <img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" />
 </a>
-
 <a href="https://medium.com/@waya.ai">
-<i class="fa fa-medium" aria-hidden="true"></i>
+<i class="fa fa-lg" aria-hidden="true"></i>
 </a>
+</div>
