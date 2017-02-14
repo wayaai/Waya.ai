@@ -1,3 +1,5 @@
+<script src="https://use.fontawesome.com/39b823b81d.js"></script>
+
 <img src="./resources/logo.png" height="224" width="224">
 
 ## About
@@ -6,12 +8,16 @@ Waya.ai is a company whose vision is a world where medical conditions are addres
 
 
 <div>
-<a href="[https://twitter.com/waya_ai]">
+<a href="https://twitter.com/waya_ai">
 <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
 </a>
-<a href="[https://www.facebook.com/wayaai]">
+<a href="https://www.facebook.com/wayaai">
 <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
 </a>
-<a href="[https://www.linkedin.com/in/michael-dietz-40518365]">
+<a href="https://www.linkedin.com/in/michael-dietz-40518365">
 <img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" />
+</a>
+
+<a href="https://medium.com/@waya.ai">
+<i class="fa fa-medium" aria-hidden="true"></i>
 </a>
