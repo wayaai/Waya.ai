@@ -9,7 +9,7 @@ Waya.ai is a company whose vision is a world where medical conditions are addres
 
 <div>
 <a href="https://medium.com/@waya.ai">
-<i class="fa-lg fa-medium" aria-hidden="true"></i>
+<i class="fa fa-medium fa-lg" aria-hidden="true"></i>
 </a>
 <a href="https://www.facebook.com/wayaai">
 <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
@@ -18,7 +18,7 @@ Waya.ai is a company whose vision is a world where medical conditions are addres
 <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
 </a>
 <a href="https://medium.com/@waya.ai">
-<i class="fa-lg fa-github" aria-hidden="true"></i>
+<i class="fa fa-github fa-lg" aria-hidden="true"></i>
 </a>
 <a href="https://www.linkedin.com/in/michael-dietz-40518365">
 <img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" />
