@@ -9,18 +9,18 @@ Waya.ai is a company whose vision is a world where medical conditions are addres
 
 <div>
 <a href="https://medium.com/@waya.ai">
-<i class="fa fa-medium fa-lg" aria-hidden="true"></i>
+<i class="fa fa-medium fa-3x" aria-hidden="true"></i>
 </a>
 <a href="https://www.facebook.com/wayaai">
-<i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+<i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
 </a>
 <a href="https://twitter.com/waya_ai">
-<i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
 </a>
 <a href="https://github.com/wayaai">
-<i class="fa fa-github fa-lg" aria-hidden="true"></i>
+<i class="fa fa-github fa-3x" aria-hidden="true"></i>
 </a>
 <a href="https://www.linkedin.com/in/michael-dietz-40518365">
-<i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+<i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
 </a>
 </div>
