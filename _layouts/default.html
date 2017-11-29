@@ -1,83 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    
-    <link rel="shortcut icon" type="image/png" href="{{site.url}}/resources/favicon.png">
-    
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-    
-    <script src="https://use.fontawesome.com/39b823b81d.js"></script>
+<title>Waya.ai, Inc site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId: "1808723732678183",
-          xfbml: true,
-          version: "v2.6"
-        });
-      };
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1808723732678183";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-    
-    <div class="wrapper">
-      <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        <div>
-          <a href="https://blog.waya.ai/">
-          <i class="fa fa-medium fa-3x" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.facebook.com/wayaai">
-          <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
-          </a>
-          <a href="https://github.com/wayaai">
-          <i class="fa fa-github fa-3x" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com/waya_ai">
-          <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/michael-dietz-40518365">
-          <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
-          </a>
-        </div>
-      </footer>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="https://waya.ai" class="w3-bar-item w3-button"><b>Waya.ai, Inc</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="https://blog.waya.ai" class="w3-bar-item w3-button">Blog</a>
+      <a href="https://github.com/wayaai" class="w3-bar-item w3-button">GitHub</a>
+      <a href="#services" class="w3-bar-item w3-button">Services</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </div>
+</div>
 
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide w3-padding-64" style="max-width:375px;" id="home">
+  <img class="w3-image" src="https://github.com/wayaai/Waya.ai/raw/master/resources/logo.png" alt="Logo" width="375" height="200">
+  <div class="w3-display-middle w3-margin-top w3-center"></div>
+</header>
 
-  {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
 
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-  {% endif %}
-  </body>
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Waya.ai is creating a future where medical conditions are addressed early on, in their infancy. This approach will shift the health-care industry from a constant fire-fight against symptoms to a preventative approach where root causes are addressed and fixed. Our first step to realize this is an easy, precise and available diagnostic service.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://github.com/wayaai/Waya.ai/blob/master/resources/pic2.png" alt="Mike" style="width:100%">
+      <h3>Michael Dietz</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Experienced software engineer specialized in deep learning & data engineering. Previously software engineer at Nordic Semiconductor ASA and Intel, Inc. Focused on improving health-care. </p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+  
+    <!-- Services Section -->
+  <div class="w3-container w3-padding-32" id="services">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Services</h3>
+    <p>We offer a boutique software engineering consulting service specializing in data engineering/science and deep/machine learning.  This ensures our companies sustainability until other revenue streams mature. We focus on delivering a correct, simple solution using the right tool for the job (we've contributed to tensorflow/keras and pytorch and have a solid grasp on the most current tools, libraries and frameworks).</p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your and our next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Google Map -->
+<div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
 </html>
